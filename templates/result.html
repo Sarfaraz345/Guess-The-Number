@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+    <title>Guess the Number</title>
+</head>
+<body>
+    <h1>Guess the Number</h1>
+    <p>{{ message }}</p>
+    {% if lost %}
+    <p>You lost. Better luck next time!</p>
+    {% endif %}
+    <a href="{{ url_for('index') }}">Play again</a>

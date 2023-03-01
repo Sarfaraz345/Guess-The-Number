@@ -1,0 +1,74 @@
+/* Set body margin and font */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Set header styles */
+header {
+    background-color: rgb(74, 32, 187);
+    color: rgb(137, 127, 127);
+    text-align: center;
+    padding: 10px;
+}
+
+/* Set main styles */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+label {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+input[type=number] {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+button[type=submit] {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+button[type=submit]:hover {
+    background-color: #555;
+}
+
+/* Set footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
